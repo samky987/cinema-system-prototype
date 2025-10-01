@@ -20,7 +20,7 @@ If we wanted to build this for **production use**, here’s what would be needed
 - Expose endpoints like:
   - `POST /movies/{id}/bookings`
   - `GET /movies/{id}/seats`
-- Optionally add a React or Angular frontend for seat selection.
+- Add a React or Angular frontend for seat selection.
 
 ### 2. Persistence & Scalability
 - Store movies, halls, and bookings in a **relational database** (MySQL, PostgreSQL).
@@ -46,4 +46,4 @@ If we wanted to build this for **production use**, here’s what would be needed
 
 ---
 
-This prototype demonstrates the **core logic**, while a production-grade system would focus on scalability, security, and robustness.
+We can also use microservice architecture depending on our scalability needs
